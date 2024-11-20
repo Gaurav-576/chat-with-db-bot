@@ -47,17 +47,23 @@ This project demonstrates the implementation of a chatbot using Python and moder
 
 To set up this project locally, follow the steps below:
 
+#### Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/your-username/chatbot-application.git
+```
 
-# Navigate to the project directory
+#### Navigate to the project directory
+```bash
 cd chatbot-application
+```
 
-# Install required dependencies
+#### Install required dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# Run the application
+#### Run the application
+```bash
 streamlit run main.py
 ```
 
@@ -87,11 +93,13 @@ streamlit run main.py
 1. Open your terminal or command prompt.
 2. Run the following commands:
 
+#### Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/your-username/chatbot-application.git
+```
 
-# Navigate to the project folder
+#### Navigate to the project folder
+```bash
 cd chatbot-application
 ```
 
