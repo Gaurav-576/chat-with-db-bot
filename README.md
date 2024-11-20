@@ -1,7 +1,7 @@
 
 # Chatbot Application
 
-This chatbot application leverages advanced Natural Language Processing (NLP) techniques to deliver an intelligent and user-friendly conversational experience. It can understand user input, process queries, and respond accurately in real-time.
+This chatbot application leverages advanced the Gemini API key to retrieve important insights from the database to deliver an intelligent and user-friendly conversational experience. It can understand user input, process queries, and respond accurately in real-time.
 
 ---
 
@@ -38,8 +38,8 @@ This project demonstrates the implementation of a chatbot using Python and moder
 
 - **Programming Language**: Python
 - **Frameworks**: Streamlit
-- **Libraries**: re, Pandas, NLTK, TensorFlow
-- **Database**: MongoDB
+- **Libraries**: Langchain, re, google-generativeai
+- **Database**: sqlite3
 
 ---
 
@@ -74,9 +74,9 @@ streamlit run main.py
 ## How It Works
 
 1. **User Input**: Captures and preprocesses user messages.
-2. **Backend Processing**: Uses NLP models or predefined logic to determine responses.
+2. **Backend Processing**: Uses Generative AI of google's Gemini Pro AI using its API key to generate insightful outputs.
 3. **Response Delivery**: Displays the output via the Streamlit interface.
-4. **Optional**: Retrieves and integrates data from a connected database.
+4. **Optional**: Retrieves and integrates data from a connected database in the backend.
 
 ---
 
@@ -131,7 +131,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 If you have any questions or suggestions, feel free to reach out:
 
-- **Email**: your-email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
+- **Email**: gauravsingh96753@gmail.com
+- **GitHub**: [Gaurav Kumar Singh](https://github.com/gaurav-576)
 
 ---
